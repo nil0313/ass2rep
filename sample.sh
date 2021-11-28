@@ -21,5 +21,5 @@ echo "CMD python /home/myapp/assessment_code.py" >> tempdir/Dockerfile
 cd tempdir
 chmod 666 /var/run/docker.sock
 docker build -t dockerapp .
-docker run -t -d -p 5050:5050 --name ChristianAssessmentApp --network host dockerapp
+docker run -t -d -p 5050:5050 --name nil0313App --network host dockerapp
 docker ps -a
